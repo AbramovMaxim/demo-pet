@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-wrapper {
+  margin: 15px;
+  display: grid;
+  width: 1850px;
+  margin: 0 auto;
+
+  grid-template-areas:
+    'h h'
+    'n c';
+
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 0.5fr 11fr;
+  grid-gap: 3px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #FDE910;
+  border-radius: 5px;
+  border: solid 1px;
+  width: 1695px;
+  height: auto;
+  overflow: hidden;
+
+  color: black;
+  font-weight: bold;
+}
+
+body {
+  background-color: #222;
+}

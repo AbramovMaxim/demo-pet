@@ -1,0 +1,33 @@
+.nav {
+    grid-area: n;
+    background-color: #8A2BE2;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 150px;
+    
+}
+
+.nav1 {
+    padding: 5px;
+}
+
+.item {
+    color: black;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 1.5;
+
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 6em */
+}
+
+.item .active {
+    color:white;
+}
+
+.item a {
+    color: black;
+    text-decoration:none;
+}

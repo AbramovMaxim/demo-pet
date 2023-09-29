@@ -1,0 +1,33 @@
+.item {
+    color: black;
+    font-weight: bold;
+
+    line-height: 1.5;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    /* padding: 5px; */
+}
+
+.img {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.messege {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    border-radius: 0 10px 10px 10px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.likesCount {
+    background-color: red;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 2px;
+}
